@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Open Sans Condensed', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    margin: 10px auto;
+    background-color: #f9f9f9;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2C3532;
+    font-size: 18px;
+}
+.navegacao{
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: rgb(105, 104, 104);
+}
+.navegacao a{
+    text-decoration: none;
+    color:#2C3532
+}
+.navegacao a:hover{
+    text-decoration:underline;
+    font-weight: 900;
+    font-size: 22px;
+    color: #00008b;
+}
+.perfil{
+    margin: 20px 400px;
+    border-radius: 50%;
+    border: #2C3532 solid 2px;
+}
+.titulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.profissao{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    color: rgb(105, 104, 104);
+}
+.profissao a{
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+}
+.profissao a:hover{
+    font-size: 27px;
+    color: #00008b;
+}
+.quem__sou{
+    text-align: justify;
+    text-indent: 30px;
+    margin: 30px;
+}
+.imagens{
+    border-radius: 5px;
+    margin: 14px;
+}
+.imagens:hover{
+    border: #00008b solid 2px;
+}
+.links{
+    margin: 10px;
+    text-align: left;
+    font-weight: 600;
+}
+.saber__mais{
+    font-family: 'Open Sans Condensed', sans-serif; 
+    letter-spacing: 1px;
+    font-weight: 300;
+    color:#2C3532;
+    margin-left: 30px;
+}
+.saber__mais a{
+    text-decoration: none;
+    color: #2C3532;
+}
+.saber__mais a:hover{
+    text-decoration:underline;
+    font-weight: 900;
+    font-size: 22px;
+    color: #00008b;
+}
+.rodape{
+    margin: 10px auto;
+    text-align: center;
+}
+.profissao__contatos{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 100px;
+    padding-top: 10px;
+    color: rgb(105, 104, 104);
+}
+.contatos{
+    margin: 10px 0 0px 100px;
+}
+.desc__empresa{
+    margin-left: 12px;
+    font-weight: 400;
+}
+.desc__itens{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 20px;
+    padding: 5px;
+}
+.desc__itens a{
+    text-decoration: none;
+    color:#00008b;
+    font-weight: 600;
+}
+.desc__itens a:hover{
+    text-decoration: underline;
+    color: #2C3532;
+}
