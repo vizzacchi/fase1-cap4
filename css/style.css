@@ -10,9 +10,9 @@ body{
     width: 1000px;
     margin: 10px auto;
     background-color: #f9f9f9;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 p{
-    font-family: 'Open Sans Condensed', sans-serif;
     color: #2C3532;
     font-size: 18px;
 }
@@ -82,7 +82,6 @@ p{
     font-weight: 600;
 }
 .saber__mais{
-    font-family: 'Open Sans Condensed', sans-serif; 
     letter-spacing: 1px;
     font-weight: 300;
     color:#2C3532;
@@ -120,7 +119,6 @@ p{
     font-weight: 400;
 }
 .desc__itens{
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     text-align: justify;
     margin-left: 20px;
